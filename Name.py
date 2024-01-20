@@ -1,0 +1,76 @@
+from turtle import *
+
+pensize(5)
+
+# Goes to th centre, bottom spot to start drawing
+penup()
+goto(-60,-250)
+pendown()
+
+# Draws the letter ('N')
+pencolor('turquoise')
+bgcolor('yellow')
+goto (-60,-230)
+goto (-40,-250)
+goto (-40,-230)
+goto (-40,-250)
+
+# Draws the letter ('A')
+pencolor('red')
+bgcolor('green')
+goto (-30,-230)
+goto (-20,-250)
+
+# Part to draw the line inside the A
+penup()
+goto (-30,-240)
+pendown()
+goto (-35,-240)
+goto (-25,-240)
+penup()
+goto (-10,-250)
+pendown()
+
+# Draws the letter ('T')
+pencolor('orange')
+bgcolor('indigo')
+goto (-10,-230)
+goto(-20,-230)
+goto(0,-230)
+penup()
+goto(0,-250)
+pendown()
+
+# Draws the letter ('H')
+pencolor('yellow')
+bgcolor('violet')
+goto(0,-230)
+goto(0,-240)
+goto(20,-240)
+goto(20,-230)
+goto(20,-250)
+
+# Draws the letter ('A')
+pencolor('violet')
+bgcolor('turquoise')
+goto(30,-230)
+goto(40,-250)
+goto(30,-230)
+
+# Draws the line inside the A
+penup()
+goto(30,-240)
+pendown()
+goto(25,-240)
+goto(35,-240)
+goto(40,-250)
+
+# Draws the letter('N')
+pencolor('green')
+bgcolor('blue')
+penup()
+goto(40,-240)
+pendown()
+goto(40,-220)
+goto(60,-240)
+goto(60,-220)
